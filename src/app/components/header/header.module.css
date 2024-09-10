@@ -1,0 +1,403 @@
+.left {
+  width: 0px;
+  flex-grow: 1;
+}
+
+.mid {
+  height: 100%;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+  width: auto;
+  height: 198px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.user {
+  width: 340px;
+  height: 100%;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headercart {
+  height: 100%;
+  width: auto;
+  position: relative;
+  left: 100px;
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.headercart span,
+.headercartsolo span {
+  position: absolute;
+  font-size: 29px;
+  z-index: 5;
+  left: 70px;
+  margin-top: 70px;
+  border-radius: 40px;
+  background-color: white;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+  color: white;
+  width: auto;
+  height: auto;
+  border: 3px solid rgba(0, 0, 0, 0.745);
+  text-align: center;
+  background: linear-gradient(to right, rgb(225, 87, 87), rgb(253, 25, 25));
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.headercartsolo {
+  height: 100%;
+  width: auto;
+  position: relative;
+  margin-left: auto;
+  right: 88px;
+  display: flex;
+  align-items: center;
+}
+
+.imgcart {
+  cursor: pointer;
+}
+
+.entrar {
+  width: 330px;
+  height: 105px;
+}
+
+.entrar p {
+  font-size: 38px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  z-index: 2;
+  color: rgb(10, 10, 181);
+}
+
+.link:visited {
+  color: rgb(10, 10, 181);
+}
+
+.nameuser {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nameuser p {
+  margin-top: -10px;
+}
+
+.nameuser button {
+  width: 160px;
+  height: 50px;
+  font-size: 40px;
+  border: none;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 3px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.nameuser button:hover {
+  background: linear-gradient(to right, rgb(186, 87, 87), rgb(232, 17, 17));
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.divauthloading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.authloading {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: spin;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.cartloading {
+  position: relative;
+  margin-left: 60px;
+  left: 110px;
+  animation-name: spin;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.onlycartloading {
+  position: relative;
+  left: 290px;
+  animation-name: spin;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.searchForm {
+  z-index: 3;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.searchForm input {
+  font-size: 26px;
+  height: 50px;
+  width: 470px;
+}
+
+.searchForm button {
+  font-size: 28px;
+  color: black;
+  height: 50px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid rgb(133, 133, 133);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.searchicon {
+  margin-left: 5px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* MEDIA QUERYS */
+@media (min-width: 1367px) and (max-width: 1440px) {
+  .logo {
+    height: 150px;
+  }
+
+  .searchForm input {
+    font-size: 24px;
+    width: 400px;
+    height: 44px;
+  }
+
+  .searchForm button {
+    height: 44px;
+    font-size: 24px;
+    width: 160px;
+  }
+
+  .searchFormTop input {
+    width: 380px;
+    margin-left: -100px;
+  }
+
+  .headercart {
+    left: 70px;
+    margin-left: 20px;
+  }
+
+  .headercartsolo {
+    left: -34px;
+  }
+
+  .cartloading {
+    left: 78px;
+    margin-left: 25px;
+  }
+
+  .onlycartloading {
+    left: 225px;
+  }
+
+  .entrar p {
+    font-size: 32px;
+  }
+
+  .imgcart {
+    height: 85px;
+    width: 85px;
+    margin-top: -5px;
+  }
+
+  .imgcartloading,
+  .imgonlycartloading,
+  .imgauthloading {
+    width: 80px;
+    height: 80px;
+  }
+
+  .authloading {
+    width: 80px;
+    height: 80px;
+  }
+
+  .headercart span,
+  .headercartsolo span {
+    position: absolute;
+    margin-top: 50px;
+    font-size: 20px;
+    left: 60px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+    border: 2px solid rgba(0, 0, 0, 0.745);
+  }
+
+  .nameuser button {
+    width: 140px;
+    height: 40px;
+    font-size: 34px;
+    margin-top: -20px;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1366px) {
+  .logo {
+    height: 120px;
+  }
+
+  .searchForm input {
+    font-size: 20px;
+    width: 380px;
+    height: 35px;
+  }
+
+  .searchForm button {
+    height: 35px;
+    font-size: 22px;
+    width: 160px;
+  }
+
+  .searchFormTop input {
+    width: 380px;
+    margin-left: -100px;
+    height: 38px;
+  }
+
+  .searchFormTop button {
+    height: 38px;
+  }
+
+  .searchicon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .headercart {
+    left: 70px;
+    margin-left: 20px;
+  }
+
+  .cartloading {
+    left: 78px;
+    margin-left: 20px;
+  }
+
+  .headercart span,
+  .headercartsolo span {
+    position: absolute;
+    margin-top: 40px;
+    font-size: 22px;
+    left: 50px;
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  .headercartsolo {
+    left: -25px;
+  }
+
+  .onlycartloading {
+    left: 220px;
+  }
+
+  .imgcart {
+    height: 70px;
+    width: 70px;
+    margin-top: -5px;
+  }
+
+  .imgcartloading,
+  .imgonlycartloading,
+  .imgauthloading {
+    width: 70px;
+    height: 70px;
+  }
+
+  .authloading {
+    width: 70px;
+    height: 70px;
+    margin-top: -10px;
+  }
+
+  .entrar {
+    padding-top: 10px;
+    width: 260px;
+  }
+  .entrar p {
+    font-size: 24px;
+  }
+
+  .nameuser button {
+    width: 130px;
+    height: 35px;
+    font-size: 28px;
+    margin-top: -20px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+}

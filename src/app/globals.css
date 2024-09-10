@@ -1,0 +1,8 @@
+*{
+  box-sizing: border-box; margin: 0; padding: 0;
+}
+
+header{
+  width: 100%; height: auto; background: linear-gradient(to top, rgb(168, 168, 199), rgb(121, 121, 218));
+  display: flex; justify-content: center; align-items: center; flex-wrap: nowrap;
+}
