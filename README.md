@@ -1,8 +1,8 @@
 E-commerce Frontend com React.js e Next.js
 
-Este projeto é o frontend de um e-commerce (Loja virtual) de roupas, desenvolvido com React o framework Next.js. Ele oferece algumas funcionalidades como filtros de busca, sistema de autenticação, pesquisa, gerenciamento de carrinho, com objetivo de proporcionar uma experiência completa de compra online.
+Frontend de um e-commerce (Loja virtual) de roupas, desenvolvido com React o framework Next.js. Ele oferece algumas funcionalidades como filtros de busca, sistema de autenticação, pesquisa, gerenciamento de carrinho, com objetivo de proporcionar uma experiência de compra online.
 
-Este projeto consome a api "E-commerce Back-end Node.js" desenvolvida em conjunto.
+Este projeto consome a api "E-commerce Back-end" desenvolvida em conjunto.
 
 Utilização
 
