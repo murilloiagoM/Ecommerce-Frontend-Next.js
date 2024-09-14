@@ -4,6 +4,8 @@ Frontend de um e-commerce (Loja virtual) de roupas, desenvolvido com React o fra
 
 Este projeto consome a api "E-commerce Back-end" desenvolvida em conjunto.
 
+Video demonstrativo: https://drive.google.com/file/d/1W61HruWLKeB61duIYmPn9hQoq1Uybh-D/view?usp=sharing
+
 Utilização
 
 O projeto está em desenvolvimento, onde desenvolvi apenas mediaqueries para as resoluções 1920x1080, 1440x900 e 1366x768;
